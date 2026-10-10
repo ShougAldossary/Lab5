@@ -1,0 +1,69 @@
+40 ?- father(abraham, herb).
+true.
+ 
+41 ?- father(abraham, homer).
+true.
+ 
+42 ?- mother(mona, herb).
+false.
+ 
+43 ?- mother(mona, homer).
+true.
+ 
+44 ?- son(bart, homer).
+true.
+ 
+45 ?- son(bart, marge).
+true.
+ 
+46 ?- daughter(lisa, marge).
+true.
+ 
+47 ?- daughter(ling, selma).
+true.
+ 
+48 ?- brother(herb, homer).
+true.
+ 
+49 ?- brother(bart, maggie).
+true.
+ 
+50 ?- sister(lisa, bart).
+true.
+ 
+51 ?- sister(lisa, maggie).
+true.
+ 
+52 ?- grandfather(clancy, ling).
+true.
+ 
+53 ?- grandfather(abraham, bart).
+true.
+ 
+54 ?- aunt(patty, maggie).
+true.
+ 
+55 ?- aunt(marge, lisa).
+false.
+ 
+56 ?- uncle(herb, bart).
+true.
+ 
+57 ?- uncle(herb, lisa).
+true.
+ 
+58 ?- cousin(lisa, ling).
+true.
+ 
+59 ?- cousin(bart, ling).
+true.
+ 
+60 ?- cousin(bart, lisa).
+false.
+ 
+61 ?- ancestor(jackie, ling).
+true.
+ 
+62 ?- ancestor(abraham, lisa).
+true.
+ 
